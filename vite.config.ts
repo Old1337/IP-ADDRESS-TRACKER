@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/",
+  base: "/IP-ADDRESS-TRACKER",
   build: {
     minify: "esbuild",
     target: "esnext",
