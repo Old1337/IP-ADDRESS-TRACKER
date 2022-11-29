@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&family=Bai+Jamjuree:wght@400;700&family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700&family=Inter:wght@400;600;700&family=Josefin+Sans:wght@300;600&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Libre+Franklin:ital,wght@0,300;0,700;1,600&family=Manrope:wght@600;800&family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,500&family=Nunito+Sans:ital,wght@0,800;1,600&family=Open+Sans:wght@300;500;700&family=Outfit:wght@400;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Red+Hat+Text:wght@700&family=Roboto:wght@100;300;500&family=Rubik:wght@400;500;700&family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+
+    <title>IP ADDRESS TRACKER</title>
+    <script type="module" crossorigin src="/<repo>/assets/index.c6210078.js"></script>
+    <link rel="stylesheet" href="/<repo>/assets/index.d73f176f.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="header">
+        <div class="ip">
+          <h1>iP address tracker</h1>
+          <div class="ip_input">
+            <input
+              type="text"
+              placeholder="Search for any IP address or domain"
+            />
+            <button>
+              <img
+                src="/<repo>/assets/icon-arrow.01e6ab28.svg"
+                alt="Click To Get ip details"
+              />
+            </button>
+          </div>
+          <div class="ip_details">
+            <div class="ip_detail">
+              <span>ip address</span>
+              <p class="ip_address">192.212.174.101</p>
+            </div>
+            <div class="ip_detail">
+              <span>Location</span>
+              <p class="ip_location">Brooklyn, NY 10001</p>
+            </div>
+            <div class="ip_detail">
+              <span>timezone</span>
+              <p class="ip_timezone">UTC- 05:00</p>
+            </div>
+            <div class="ip_detail">
+              <span>isp</span>
+              <p class="ip_isp">SpaceX Starlink</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+    
+  </body>
+</html>
